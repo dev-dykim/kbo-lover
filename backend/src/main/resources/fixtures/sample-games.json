@@ -1,0 +1,102 @@
+[
+  {
+    "homeTeamName": "LG",
+    "awayTeamName": "KIA",
+    "homeScore": 3,
+    "awayScore": 1,
+    "status": "FINISHED",
+    "inning": 9,
+    "stadium": "잠실",
+    "startTime": "18:30"
+  },
+  {
+    "homeTeamName": "두산",
+    "awayTeamName": "삼성",
+    "homeScore": 0,
+    "awayScore": 2,
+    "status": "FINISHED",
+    "inning": 9,
+    "stadium": "잠실",
+    "startTime": "18:30"
+  },
+  {
+    "homeTeamName": "SSG",
+    "awayTeamName": "NC",
+    "homeScore": 5,
+    "awayScore": 3,
+    "status": "FINISHED",
+    "inning": 9,
+    "stadium": "인천",
+    "startTime": "18:30"
+  },
+  {
+    "homeTeamName": "롯데",
+    "awayTeamName": "한화",
+    "homeScore": 2,
+    "awayScore": 4,
+    "status": "FINISHED",
+    "inning": 9,
+    "stadium": "사직",
+    "startTime": "18:30"
+  },
+  {
+    "homeTeamName": "KT",
+    "awayTeamName": "키움",
+    "homeScore": 7,
+    "awayScore": 2,
+    "status": "FINISHED",
+    "inning": 9,
+    "stadium": "수원",
+    "startTime": "18:30"
+  },
+  {
+    "homeTeamName": "기아",
+    "awayTeamName": "두산",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "SCHEDULED",
+    "inning": 0,
+    "stadium": "광주",
+    "startTime": "14:00"
+  },
+  {
+    "homeTeamName": "삼성",
+    "awayTeamName": "LG",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "SCHEDULED",
+    "inning": 0,
+    "stadium": "대구",
+    "startTime": "14:00"
+  },
+  {
+    "homeTeamName": "NC",
+    "awayTeamName": "롯데",
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "IN_PROGRESS",
+    "inning": 5,
+    "stadium": "창원",
+    "startTime": "14:00"
+  },
+  {
+    "homeTeamName": "한화",
+    "awayTeamName": "KT",
+    "homeScore": 0,
+    "awayScore": 3,
+    "status": "IN_PROGRESS",
+    "inning": 7,
+    "stadium": "대전",
+    "startTime": "14:00"
+  },
+  {
+    "homeTeamName": "키움",
+    "awayTeamName": "SSG",
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": "IN_PROGRESS",
+    "inning": 3,
+    "stadium": "고척",
+    "startTime": "14:00"
+  }
+]
