@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.omc/*
+!.omc/plans/
+!.omc/plans/**
+!.omc/specs/
+!.omc/specs/**
+node_modules/
+build/
+*.jar
+*.class
+target/
+.gradle/
