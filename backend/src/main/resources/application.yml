@@ -31,6 +31,11 @@ collector:
   schedule:
     rate-ms: 30000  # 30초
   use-mock: false   # true로 바꾸면 MockFixtureCollector 사용
+  kbo:
+    base-url: https://www.koreabaseball.com
+    league-id: "1"      # 1 = KBO 1군
+    series-id: "0,1"    # 0 = 정규시즌, 1 = 시범경기
+    retry-delay-ms: 5000  # 레이트리밋 추정 차단 시 재시도 전 대기 시간
 
 ---
 spring:
