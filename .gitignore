@@ -5,6 +5,8 @@
 !.omc/plans/**
 !.omc/specs/
 !.omc/specs/**
+!.omc/research/
+!.omc/research/**
 node_modules/
 build/
 *.jar
