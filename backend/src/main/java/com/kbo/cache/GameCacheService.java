@@ -7,6 +7,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -26,7 +27,10 @@ public class GameCacheService {
     private final ObjectMapper objectMapper;
 
     public void saveTodayGames(List<GameCollectResult> games) {
-        redisTemplate.opsForValue().set(TODAY_GAMES_KEY, games, TTL);
+        // Stream.toList() 등이 반환하는 불변 리스트는 런타임 클래스가 final이라
+        // GenericJackson2JsonRedisSerializer가 타입 정보를 못 붙여 역직렬화 시 SerializationException이 난다.
+        // ArrayList(non-final)로 감싸서 캐싱한다.
+        redisTemplate.opsForValue().set(TODAY_GAMES_KEY, new ArrayList<>(games), TTL);
     }
 
     public List<GameCollectResult> loadTodayGames() {
